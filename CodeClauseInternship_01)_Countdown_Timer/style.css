@@ -1,0 +1,111 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  text-align: center;
+  background-color: #131313;
+}
+
+h1 {
+  color: #f5f5f5;
+  font-size: 40px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  color: #f5f5f5;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* background-color: rgb(110, 106, 106); */
+  /* color: #f5f5f5; */
+
+
+}
+
+button {
+  min-width: 120px;
+  margin: 20px 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+
+}
+
+button:hover {
+  color: white;
+  font-size: 22px;
+}
+
+#start{
+  background-color: rgb(10, 228, 10);
+}
+#stop{
+  background-color: red;
+}
+#reset{
+  background-color: rgb(110, 106, 106);
+}
+.countdown {
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+
+.heading{
+    font-size: 18px;
+}
+
+.time{
+    background-color:#090909;
+    font-size: 100px;
+    width: 150px;
+    color:#ececec;
+    margin: 0 10px;
+    @media (max-width: 400px) {
+      font-size: 40px;
+      width: 80px;
+  }
+
+}
+
+.countdown span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    width: 10px;
+    height: 200px;
+    @media (max-width: 400px) {
+      font-size: 50px;
+      width: 3px;
+      height: 140px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
